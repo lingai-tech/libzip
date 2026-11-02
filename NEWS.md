@@ -1,3 +1,7 @@
+# 1.11.2.1 [2026-11-02]
+
+* Use SipHash with per-hash-table random keys to prevent quadratic behavior from filename hash collisions (GHSA-m3wq-j48p-jxwh).
+
 # 1.11.2 [2024-10-31]
 
 * Fix performance regression in `zip_stat` introduced in 1.11.
